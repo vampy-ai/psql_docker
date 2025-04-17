@@ -1,0 +1,8 @@
+after compose up run this two command in terminal :
+
+docker container ls or docker ps
+
+docker inspect <id of postgres without <> brackers> like ex : 
+docker inspect 1f4bc8349bc9
+
+and put IPAddress as Host name / address
